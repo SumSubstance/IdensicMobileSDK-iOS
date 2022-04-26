@@ -3,8 +3,8 @@
 
 import PackageDescription
 
-let version = "1.19.3"
-let checksum = "08ceaf8f7f1892f74c9891be9096d139ed1e75931dbfc86d5ace1644c70fb162"
+let version = "1.19.4"
+let checksum = "39b52dd23a853f70e2ead2f054bef4fb0311f6b21ba85c305be95403b647d885"
 
 let package = Package(
     name: "IdensicMobileSDK",
