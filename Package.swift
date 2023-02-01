@@ -3,13 +3,13 @@
 
 import PackageDescription
 
-let version = "1.22.1"
+let version = "1.23.0"
 
 enum checksums {
     
-    static let msdk = "5d1ba6dd43ae1b1b182203c0c9c00912a847f0cf817f0704650af5f149251998"
-    static let mrtd = "fbdaa342e78d7ce4c4c0fd5c7cdda6bd87c6e314f436c0421b75b22206498925"
-    static let vi   = "efdff0a5152bd6d0f2ca6a68fd10ee1cab29c6720ea9e425ce8e60224ab2c46d"
+    static let msdk = "c9cc7d395b7afd43a6223b629e2a506c4f843f07468fdbf1eefd46c498aa0a10"
+    static let mrtd = "a89a98aad71c70f56c9b750d8fb6b0297a165e42e1fb8b75c07b121f9260b9db"
+    static let vi   = "c6fbff3782e9e41b23f2e326a899f45b784320d4990d907e93f8c9dc945bcb7a"
     
 }
 
