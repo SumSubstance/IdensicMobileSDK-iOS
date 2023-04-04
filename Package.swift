@@ -4,7 +4,7 @@
 import PackageDescription
 
 let version = "1.20.1"
-let checksum = "298af16876e8fc4617375f14102c5b64eae1ba946d0ae854d32a8e51274593eb"
+let checksum = "f9f36474e62ebb47c70e1ec62119208b65e37e5aa89b83f6cee44b66a8cc49fb"
 
 let package = Package(
     name: "IdensicMobileSDK",
@@ -20,7 +20,7 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "IdensicMobileSDK",
-            url: "https://raw.githubusercontent.com/SumSubstance/IdensicMobileSDK-iOS-Release/master/\(version)/IdensicMobileSDK-\(version).zip",
+            url: "https://raw.githubusercontent.com/SumSubstance/IdensicMobileSDK-iOS-Release/master/\(version)/IdensicMobileSDK_Core-\(version).zip",
             checksum: checksum
         )
     ]
