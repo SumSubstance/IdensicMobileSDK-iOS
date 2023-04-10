@@ -3,13 +3,13 @@
 
 import PackageDescription
 
-let version = "1.23.1"
+let version = "1.24.0"
 
 enum checksums {
     
-    static let msdk = "6f72c2dc9bc440ce8cef97de194698a2d1c372e4ac14c1e4c17aaaf9699b5380"
-    static let mrtd = "25ff4eba080740e370fee4f5922787947d3c36a8e10000e9d7507e35e3ccec62"
-    static let vi   = "493df48a57af3e1fe094d303d9fb6df5cde5661af8534c19072359d7c3162045"
+    static let msdk = "277951881ccfb9e0148684b0c761d20104ca642dc4fc756877a2eb19df52d86b"
+    static let mrtd = "67823cc40714fd09be29e31b84c1fc261c9dae4ecccb8a86b7c7e9946186846d"
+    static let vi   = "d1d5548293daf7d177db2fc0ef871a98f5bd134d92f2e9ed287a7b898fd18164"
     
 }
 
@@ -47,7 +47,7 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "IdensicMobileSDK",
-            url: "https://raw.githubusercontent.com/SumSubstance/IdensicMobileSDK-iOS-Release/master/\(version)/IdensicMobileSDK-\(version).zip",
+            url: "https://raw.githubusercontent.com/SumSubstance/IdensicMobileSDK-iOS-Release/master/\(version)/IdensicMobileSDK_Core-\(version).zip",
             checksum: checksums.msdk
         ),
         .binaryTarget(
