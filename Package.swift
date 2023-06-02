@@ -17,7 +17,7 @@ enum checksums {
 let package = Package(
     name: "IdensicMobileSDK",
     platforms: [
-        .iOS(.v11)
+        .iOS("12.2")
     ],
     products: [
         .library(
@@ -46,7 +46,7 @@ let package = Package(
         ),
         .package(
             url: "https://github.com/twilio/twilio-video-ios",
-            "4.0.0" ..< "5.0.0"
+            "4.0.0" ..< "6.0.0"
         )
     ],
     targets: [
