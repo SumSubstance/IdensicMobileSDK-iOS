@@ -3,14 +3,14 @@
 
 import PackageDescription
 
-let version = "1.30.0"
+let version = "1.31.0"
 let gitUrl = "https://raw.githubusercontent.com/SumSubstance/IdensicMobileSDK-iOS-Release/master/\(version)"
 
 enum checksums {
     
-    static let msdk = "ff44cfa3de1e1f19e44a8fa13091cc19ba8de579a41432dcd80bfea4aefe72eb"
-    static let mrtd = "80ffbb8bb804a99c39ee69f1819273d5fce857f21f288e815673155d33f92773"
-    static let vi   = "7708198bc5b36cf871e963b7fca7fe3f084dc5508ca8e4022ffdeb95ca14bf7d"
+    static let msdk = "66b3399fab2dfd63c63964956649356f2ece1dd3e573baa41fae3dc868d41a33"
+    static let mrtd = "145c156deb02c922eb3939431f190f62a3b29bb2de09332e7fa2109832352508"
+    static let vi   = "c99247c39b32e419012d01e8b5eead54152bbde3894f4318ac3618eb1e1c9ecd"
 
 }
 
