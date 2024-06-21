@@ -3,21 +3,21 @@
 
 import PackageDescription
 
-let version = "1.31.0"
+let version = "1.32.0"
 let gitUrl = "https://raw.githubusercontent.com/SumSubstance/IdensicMobileSDK-iOS-Release/master/\(version)"
 
 enum checksums {
-    
-    static let msdk = "66b3399fab2dfd63c63964956649356f2ece1dd3e573baa41fae3dc868d41a33"
-    static let mrtd = "145c156deb02c922eb3939431f190f62a3b29bb2de09332e7fa2109832352508"
-    static let vi   = "c99247c39b32e419012d01e8b5eead54152bbde3894f4318ac3618eb1e1c9ecd"
-    
+
+    static let msdk = "73f5c783c65e3a3f1464807a1bce3b39ada2a1be6a271d025c081bf62848540f"
+    static let mrtd = "73d00a027cd8f0baf7c40dbf85d94bc8d51c1a14cc4b0cd78f821ac37df022bb"
+    static let vi   = "4ba48b632333633ea67ea0548b7f1ab0572d777fc6409bc76b7148b5c5409116"
+
 }
 
 let package = Package(
     name: "IdensicMobileSDK",
     platforms: [
-        .iOS(.v11)
+        .iOS("12.2")
     ],
     products: [
         .library(
@@ -46,7 +46,7 @@ let package = Package(
         ),
         .package(
             url: "https://github.com/twilio/twilio-video-ios",
-            "4.0.0" ..< "5.0.0"
+            "5.8.2" ..< "6.0.0"
         )
     ],
     targets: [
