@@ -3,7 +3,7 @@
 
 import PackageDescription
 
-let version = "1.33.0"
+let version = "1.33.1"
 let aalVersion = "1.3.3"
 
 let gitUrl = "https://raw.githubusercontent.com/SumSubstance/IdensicMobileSDK-iOS-Release/master/\(version)"
@@ -11,10 +11,10 @@ let depsUrl = "https://raw.githubusercontent.com/SumSubstance/IdensicMobileSDK-i
 
 enum checksums {
 
-    static let msdk = "2114352d564c26ae6c3834878e9583b3d6347043eca9b52925c7c53faa953833"
-    static let mrtd = "ef58294c352982ea35801dbadbef0ccce6d20bbaca0aac810adfc9d80f122897"
-    static let vi   = "7d3f4be12f803bc686604500ea707a979636593b0fea8023b67fdd2d828e9867"
-    static let eid  = "68b3b9e2a6e36e86a1eaba70a531143d8db89964abb6920aca18dc5a48405090"
+    static let msdk = "d20123b479e0033a167c6ddcabb98d1a382e08c1222e3f135ae74ff8b180bc1c"
+    static let mrtd = "a8041182647aed274eeb0b1ffc2cc5be2ecfcbc2fc82c72ea56c1505747d4800"
+    static let vi   = "28dcbc30fd245fabde02b794ad701427ec7e0e94cc66786b6e85d3dc6770b467"
+    static let eid  = "088fe0516c34641c25c063167b5865f6ae2d47888f60c09f875b55092e50ca5b"
     static let aal  = "d7c970bd9109d6e4e4cd238e70eea0c312e7355c578f55af1a4db37a7374bfe0"
 
 }
