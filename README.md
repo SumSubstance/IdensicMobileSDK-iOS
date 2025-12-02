@@ -1,3 +1,3 @@
 # Sumsub Mobile SDK for iOS
 
-Documentation can be found [here](https://developers.sumsub.com/msdk/ios/)
+Documentation can be found [here](https://docs.sumsub.com/docs/get-started-ios)
